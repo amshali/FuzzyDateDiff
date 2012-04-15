@@ -1,5 +1,5 @@
 package fuzzydatediff;
 
 public interface FuzzyDateDiff {
-  public String diff(String referenceDate, String actualDate);
+  public String diff(String referenceDate, String actualDate, String dateTimePattern);
 }
